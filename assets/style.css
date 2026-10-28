@@ -65,9 +65,10 @@ h2 { flex: 1; color: var(--green); font: normal 26px/1.4 var(--serif); letter-sp
 .timeline-row h3 { font-size: 15px; line-height: 1.65; font-weight: 600; }
 .description { font-size: 14px; margin-top: 4px; }
 .awards-list { list-style: none; margin: 0; padding: 0; }
-.awards-list li { display: grid; grid-template-columns: 174px 1fr; gap: 28px; margin-bottom: 16px; font-size: 14px; }
+.awards-list li { display: grid; grid-template-columns: 174px 1fr; gap: 28px; margin-bottom: 16px; font-size: 16px; }
+.awards-list .date { font-size: 15px; }
 .awards-list strong { font-weight: 500; }
-.award-detail { display: block; color: var(--muted); font-size: 14px; }
+.award-detail { display: block; color: var(--muted); font-size: 15px; }
 .timeline-row .talk-title { font-size: 14px; font-weight: 500; }
 .reviewer { font-size: 14px; line-height: 1.9; }
 .site-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; border-top: 1px solid var(--rule); padding: 24px 0 35px; margin-top: 54px; font-size: 14px; color: var(--muted); }

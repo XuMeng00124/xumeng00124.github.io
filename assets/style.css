@@ -38,6 +38,9 @@ h1 { font: normal 46px/1.16 var(--serif); letter-spacing: -1.6px; color: #293f31
 .compact-section { margin-top: 31px; }
 .compact-entry { display: grid; grid-template-columns: 218px minmax(0, 1fr); gap: 18px; margin-bottom: 10px; font-size: 15px; line-height: 1.85; }
 .compact-entry .date { font-size: 14px; padding-top: 1px; white-space: nowrap; }
+.experience-entry { font-size: 16px; }
+.experience-entry .date { font-size: 15px; }
+.experience-summary { color: var(--muted); font-size: 15px; line-height: 1.75; margin-top: 3px; }
 h2 { flex: 1; color: var(--green); font: normal 26px/1.4 var(--serif); letter-spacing: -.4px; padding-bottom: 11px; margin-bottom: 20px; border-bottom: 1px solid var(--rule); }
 .about p { line-height: 1.85; }
 .about p + p { margin-top: 12px; }
@@ -62,15 +65,16 @@ h2 { flex: 1; color: var(--green); font: normal 26px/1.4 var(--serif); letter-sp
 .paper-link { font-size: 14px; margin-left: 3px; }
 .timeline-row { display: grid; grid-template-columns: 174px 1fr; gap: 28px; margin-bottom: 25px; }
 .date { color: var(--muted); font-size: 14px; line-height: 1.8; padding-top: 2px; font-variant-numeric: tabular-nums; }
-.timeline-row h3 { font-size: 15px; line-height: 1.65; font-weight: 600; }
-.description { font-size: 14px; margin-top: 4px; }
+.timeline-row h3 { font-size: 16px; line-height: 1.65; font-weight: 600; }
+.timeline-row .date { font-size: 15px; }
+.description { font-size: 15px; margin-top: 4px; }
 .awards-list { list-style: none; margin: 0; padding: 0; }
 .awards-list li { display: grid; grid-template-columns: 174px 1fr; gap: 28px; margin-bottom: 16px; font-size: 16px; }
 .awards-list .date { font-size: 15px; }
 .awards-list strong { font-weight: 500; }
 .award-detail { display: block; color: var(--muted); font-size: 15px; }
-.timeline-row .talk-title { font-size: 14px; font-weight: 500; }
-.reviewer { font-size: 14px; line-height: 1.9; }
+.timeline-row .talk-title { font-size: 16px; font-weight: 500; }
+.reviewer { list-style: none; margin: 0; padding: 0; font-size: 16px; line-height: 1.9; }
 .site-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; border-top: 1px solid var(--rule); padding: 24px 0 35px; margin-top: 54px; font-size: 14px; color: var(--muted); }
 .site-footer p span { margin: 0 7px; }
 .site-footer a { color: var(--muted); }
